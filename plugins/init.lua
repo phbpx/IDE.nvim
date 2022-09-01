@@ -43,7 +43,7 @@ return {
             let g:silicon['output'] = '/tmp/silicon-{time:%Y-%m-%d-%H%M%S}.png'
          ]]
       end
-   },
+  },
 
   ["neovim/nvim-lspconfig"] = {
     config = function()
@@ -67,5 +67,18 @@ return {
      after = "nvim-cmp",
      run = "./install.sh",
      config = require("custom.configs.tabnine").tabnine()
+  },
+
+  ["zbirenbaum/copilot.lua"] = {
+    event = "InsertEnter",
+    config = function ()
+      vim.defer_fn(function()
+        require "custom.configs.copilot"
+      end, 100)
+    end,
+  },
+
+  ["zbirenbaum/copilot-cmp"] = {
+    after = { "copilot.lua", "nvim-cmp" },
   },
 }
