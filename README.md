@@ -1,6 +1,6 @@
 # nvim
 
-[![Product Name Screen Shot][product-screenshot]](https://github.com/NvChad/NvChad)
+[![Product Name Screen Shot][product-screenshot]](https://nvchad.com/assets/images/ayu-dark-cc4b27b22bda6974f84584b230993bbe.png)
 
 LSP & Formatting:
 * Terraform
@@ -30,7 +30,7 @@ LSP & Formatting:
 1. Install [NvChad](https://github.com/nvchad/nvchad)
 2. Clone the repo
    ```sh
-   git clone https://github.com/phbpx/nvim.git
+   git clone https://github.com/phbpx/IDE.nvim.git
    ```
 3. Move folder
    ```sh
