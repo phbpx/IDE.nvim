@@ -9,9 +9,6 @@ M.ui = {
   theme = "ayu-dark"
 }
 
-
-local tn = require "custom.configs.tabnine"
-
 M.plugins = {
   override = {
     ["williamboman/mason.nvim"] = {
@@ -52,9 +49,9 @@ M.plugins = {
       },
     },
 
-    ["hrsh7th/nvim-cmp"] = tn.cmp,
+    ["hrsh7th/nvim-cmp"] = require("custom.configs.cmp").cmp(),
 
-    ["tzachar/cmp-tabnine"] = tn.tabnine
+    ["tzachar/cmp-tabnine"] = require("custom.configs.tabnine").tabnine(),
   },
   user = require "custom.plugins"
 }
