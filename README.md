@@ -1,6 +1,6 @@
 # nvim
 
-[![Product Name Screen Shot][product-screenshot]](https://nvchad.com/assets/images/ayu-dark-cc4b27b22bda6974f84584b230993bbe.png)
+![ide](https://nvchad.com/assets/images/ayu-dark-cc4b27b22bda6974f84584b230993bbe.png)
 
 LSP & Formatting:
 * Terraform
