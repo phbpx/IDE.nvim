@@ -1,6 +1,6 @@
 # nvim
 
-![ide](https://nvchad.com/assets/images/ayu-dark-cc4b27b22bda6974f84584b230993bbe.png)
+![ide](./assets/ide.png)
 
 LSP & Formatting:
 * Terraform
