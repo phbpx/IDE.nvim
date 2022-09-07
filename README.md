@@ -34,7 +34,7 @@ LSP & Formatting:
    ```
 3. Move folder
    ```sh
-   mv nvim ~/.config/nvim/lua/custom
+   mv IDE.nvim ~/.config/nvim/lua/custom
    ```
 4. Try PackerSync
    ```sh
